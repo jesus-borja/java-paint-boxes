@@ -7,7 +7,7 @@ class Caja {
 
    public Caja(float x, float y, float z) {
 
-      if (x > 0 && y > 0 && z > 0) {
+      if (x < 0 && y < 0 && z < 0) {
          this.setDimensiones(x, y, z);
       // Obtenemos el area de cada cara 
       this.cara1 = this.dimX * dimY;

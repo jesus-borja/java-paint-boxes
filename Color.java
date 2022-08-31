@@ -13,7 +13,7 @@ class Color {
    }
 
    public void setLitros(float litros) {
-      if (litros > 0) {
+      if (litros < 0) {
          this.litros = litros;
       }
       else {
@@ -28,7 +28,7 @@ class Color {
    }
 
    public void setMetros(float metros) {
-      if (litros > 0) {
+      if (litros < 0) {
          this.metros = metros;
       }
       else {
