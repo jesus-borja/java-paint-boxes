@@ -1,4 +1,14 @@
-/* Clase que se encarga de controlar los atributos y metodos para las cajas */
+/* Archivo: Caja.java
+ *
+ * Clase que se encarga de controlar los atributos y metodos para las cajas
+ *
+ * Alumno: Jesús Borja Hernández
+ * Docente: Roberto Hernández Perez
+ *
+ * Materia: Estructura de Datos
+ * Fecha de Entrega: 31 de agosto, 2022
+ *
+ * */
 
 class Caja {
    private float dimX, dimY, dimZ;

@@ -1,4 +1,18 @@
-/* Clase que indica los atributos y metodos para los tipos de pintura */
+/* Archivo: Color.java
+ *
+ * Clase que indica los atributos y metodos para los tipos de pintura 
+ *
+ * Alumno: Jesús Borja Hernández
+ * Docente: Roberto Hernández Perez
+ *
+ * Materia: Estructura de Datos
+ * Fecha de Entrega: 31 de agosto, 2022
+ *
+ *
+ *
+ *
+ * */
+
 
 class Color {
    private String color;
