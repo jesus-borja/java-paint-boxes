@@ -7,19 +7,12 @@ class Caja {
 
    public Caja(float x, float y, float z) {
 
-      if (x < 0 && y < 0 && z < 0) {
-         this.setDimensiones(x, y, z);
+      this.setDimensiones(x, y, z);
+
       // Obtenemos el area de cada cara 
       this.cara1 = this.dimX * dimY;
       this.cara2 = this.dimX * dimZ;
       this.cara3 = this.dimZ * dimY;
-
-      } 
-      else {
-         System.out.println("Los valores deben ser positivos.");
-         System.out.println("Se considerarán los valores (1, 1, 1) en su lugar.");
-         this.setDimensiones(1, 1, 1);
-      }
    }
 
    public void printDimensiones() {
