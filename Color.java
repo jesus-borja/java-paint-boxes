@@ -13,7 +13,14 @@ class Color {
    }
 
    public void setLitros(float litros) {
-      this.litros = litros;
+      if (litros > 0) {
+         this.litros = litros;
+      }
+      else {
+         System.out.println("Debe introducirse un valor positivo.");
+         System.out.println("Se considerará el valor 1 en su lugar.");
+         this.litros = 1;
+      }
    }
 
    public float getLitros() {
@@ -21,7 +28,14 @@ class Color {
    }
 
    public void setMetros(float metros) {
-      this.metros = metros;
+      if (litros > 0) {
+         this.metros = metros;
+      }
+      else {
+         System.out.println("Debe introducirse un valor positivo.");
+         System.out.println("Se considerará el valor 1 en su lugar.");
+         this.metros = 1;
+      }
    }
 
    public float getMetros() {
@@ -38,4 +52,3 @@ class Color {
             + getLitros() + "lts x " + getMetros() + "mts cuadrados");
    }
 }
-
