@@ -1,3 +1,5 @@
+/* Clase que indica los atributos y metodos para los tipos de pintura */
+
 class Color {
    private String color;
    private float litros, metros;

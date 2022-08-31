@@ -1,3 +1,7 @@
+/* Aplicación principal que se encarga de crear las cajas de distintas medidas, mostrar la pintura
+ * necesaria, los tipos de colores de pintura y su rendimiento, además de calcular el total de 
+ * pintura que se necesita de cada color 
+ */
 
 public class Main {
    public static void main(String...s) {

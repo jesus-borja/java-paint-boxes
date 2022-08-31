@@ -1,3 +1,4 @@
+/* Clase que se encarga de controlar los atributos y metodos para las cajas */
 
 class Caja {
    private float dimX, dimY, dimZ;
